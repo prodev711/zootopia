@@ -55,36 +55,35 @@ const Faq = () => {
       <div className="faq-elements">
         <div className="faq-element">
           <div className="faq-question" onClick={mintPrice}>
-            <p>What is the mint price?</p>
+            <p>Your team have Marking and consultanting? or Only development Team?</p>
             <button className={mintprice ? "" : "hide"}>-</button>
             <button className={mintprice ? "hide" : ""}>+</button>
           </div>
           <div className={mintprice ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p>Our team has good experience of Marketing and are response to marking with development.</p>
+            <p>Also We have great idea and serveral products to make life easier</p>
           </div>
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={mintDate}>
-            <p>When is the mint?</p>
+            <p>What stack does your team mainly develop?</p>
             <button className={mintdate ? "" : "hide"}>-</button>
             <button className={mintdate ? "hide" : ""}>+</button>
           </div>
           <div className={mintdate ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p>We have great team can develop with Angular, React, Next.js at Frontend</p>
+            <p>We are good at Nest.js, Express, MongoDB, Mongoose at Backend</p>
+            <p>Also React Native team for mobile application and Great team at blockchain field</p>
           </div>
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={mintCount}>
-            <p>How many GHOG NFTs will be available?</p>
+            <p>Where your team based on? I want to make team at my region</p>
             <button className={mintcount ? "" : "hide"}>-</button>
             <button className={mintcount ? "hide" : ""}>+</button>
           </div>
           <div className={mintcount ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
+            <p>As we are global team, Our team guys are in all the world. If possible, you can build a great development team in your area.</p>
             <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
             <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
           </div>
