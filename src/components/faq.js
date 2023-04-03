@@ -100,14 +100,14 @@ const Faq = () => {
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={Benefit}>
-            <p>What are the benefits of holding one or multiple GHOG NFTs?</p>
+            <p>What are the benefits of hiring Zootopia team?</p>
             <button className={benefit ? "" : "hide"}>-</button>
             <button className={benefit ? "hide" : ""}>+</button>
           </div>
           <div className={benefit ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p></p>
+            <p>From web and mobile development to site launch, we do a complete job, and the hiring cost is inexpensive and can be negotiated through dialogue.</p>
+            <p>In addition, 100% satisfaction of customer needs through close communication with their requirements.</p>
           </div>
         </div>
         <div className="faq-element">
