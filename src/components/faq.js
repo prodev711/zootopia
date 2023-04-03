@@ -90,14 +90,12 @@ const Faq = () => {
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={Presale}>
-            <p>Will there be a pre-sale?</p>
+            <p>Can start working immediately after being hired?</p>
             <button className={presale ? "" : "hide"}>-</button>
             <button className={presale ? "hide" : ""}>+</button>
           </div>
           <div className={presale ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p>Yes, Our team is ready always and ensure great quality with high skill</p>
           </div>
         </div>
         <div className="faq-element">
