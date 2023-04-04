@@ -112,14 +112,12 @@ const Faq = () => {
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={Reveal}>
-            <p>When is the reveal?</p>
+            <p>Do I have to pay first to hire zootopia team?</p>
             <button className={reveal ? "" : "hide"}>-</button>
             <button className={reveal ? "hide" : ""}>+</button>
           </div>
           <div className={reveal ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p>No</p>
           </div>
         </div>
         <div className="faq-sheep ">
