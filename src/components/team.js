@@ -22,17 +22,17 @@ const Team = () => {
         <div className="team-members-top">
           <div className="team-member">
             <img src={yuki} />
-            <p className="member-name">Iwamoto Yuki</p>
+            <p className="member-name">Ralen Rumenic</p>
             <p className="member-role">Founder & CEO</p>
           </div>
           <div className="team-member">
             <img src={tentra} />
-            <p className="member-name">Tentera</p>
+            <p className="member-name">Roman Khamidrak</p>
             <p className="member-role">Founder & CFO</p>
           </div>
           <div className="team-member">
-            <img src={okura} />
-            <p className="member-name">Okura Tasuhiro</p>
+            <img src={cousine} />
+            <p className="member-name">Ralieshchenko Bladyslav</p>
             <p className="member-role">Founder & CTO</p>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Team = () => {
             <p className="member-role">Marketing Manager</p>
           </div>
           <div className="team-member">
-            <img src={cousine} />
+            <img src={okura} />
             <p className="member-name">Yasuda Yuki</p>
             <p className="member-role">Developer</p>
           </div>
