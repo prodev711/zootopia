@@ -84,44 +84,38 @@ const Faq = () => {
           </div>
           <div className={mintcount ? "faq-answer" : "hide"}>
             <p>As we are global team, Our team guys are in all the world. If possible, you can build a great development team in your area.</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
           </div>
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={Presale}>
-            <p>Will there be a pre-sale?</p>
+            <p>Can start working immediately after being hired?</p>
             <button className={presale ? "" : "hide"}>-</button>
             <button className={presale ? "hide" : ""}>+</button>
           </div>
           <div className={presale ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p>Yes, Our team is ready always and ensure great quality with high skill</p>
           </div>
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={Benefit}>
-            <p>What are the benefits of holding one or multiple GHOG NFTs?</p>
+            <p>What are the benefits of hiring Zootopia team?</p>
             <button className={benefit ? "" : "hide"}>-</button>
             <button className={benefit ? "hide" : ""}>+</button>
           </div>
           <div className={benefit ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p></p>
+            <p>From web and mobile development to site launch, we do a complete job, and the hiring cost is inexpensive and can be negotiated through dialogue.</p>
+            <p>In addition, 100% satisfaction of customer needs through close communication with their requirements.</p>
           </div>
         </div>
         <div className="faq-element">
           <div className="faq-question" onClick={Reveal}>
-            <p>When is the reveal?</p>
+            <p>Do I have to pay first to hire zootopia team?</p>
             <button className={reveal ? "" : "hide"}>-</button>
             <button className={reveal ? "hide" : ""}>+</button>
           </div>
           <div className={reveal ? "faq-answer" : "hide"}>
-            <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
+            <p>No</p>
           </div>
         </div>
         <div className="faq-sheep ">
