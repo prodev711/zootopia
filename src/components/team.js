@@ -1,8 +1,8 @@
 import yuki from "../img/Yuki.png"
 import tentra from "../img/Tentra.png"
-import okura from "../img/Okura.png"
+import okura from "../img/Cousine.png"
 import sumiya from "../img/Sumiya.png"
-import cousine from "../img/Cousine.png"
+import cousine from "../img/Okura.png"
 
 import "../styles/team.css"
 
@@ -22,17 +22,17 @@ const Team = () => {
         <div className="team-members-top">
           <div className="team-member">
             <img src={yuki} />
-            <p className="member-name">Iwamoto Yuki</p>
+            <p className="member-name">Ralen Rumenic</p>
             <p className="member-role">Founder & CEO</p>
           </div>
           <div className="team-member">
             <img src={tentra} />
-            <p className="member-name">Tentera</p>
+            <p className="member-name">Ralieshchenko Bladyslav</p>
             <p className="member-role">Founder & CFO</p>
           </div>
           <div className="team-member">
             <img src={okura} />
-            <p className="member-name">Okura Tasuhiro</p>
+            <p className="member-name">Roman Khamidrak</p>
             <p className="member-role">Founder & CTO</p>
           </div>
         </div>
