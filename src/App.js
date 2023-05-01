@@ -18,7 +18,7 @@ function App() {
       <Roadmap />
       <Faq />
       <Team />
-      <Game />
+      {/* <Game /> */}
       <Mint />
       <ContactUs />
     </div>
