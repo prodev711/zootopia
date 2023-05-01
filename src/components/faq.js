@@ -84,8 +84,6 @@ const Faq = () => {
           </div>
           <div className={mintcount ? "faq-answer" : "hide"}>
             <p>As we are global team, Our team guys are in all the world. If possible, you can build a great development team in your area.</p>
-            <p>-2st Round of Whitelist Sales: 22MATIC (35 USDT)</p>
-            <p>-Pubic Sales: 30 MATIC (50 USDT)</p>
           </div>
         </div>
         <div className="faq-element">
